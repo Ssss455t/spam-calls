@@ -1,8 +1,8 @@
 import requests as rq 
-print (' Click On Link To Get On Password')
+#print (' Click On Link To Get On Password')
 print ()
 print ('')
-Password =input ('\033[1;92m》Enter Password : \033[1;96m')
+#Password =input ('\033[1;92m》Enter Password : \033[1;96m')
 print ()
 NUMBER=input ('\033[1;92m》Enter Phone Number : \033[1;96m')
 
