@@ -1,4 +1,7 @@
 
+import random,sys,time,os
+from time import sleep
+import requests
 c=('\033[1;092m××××××××××××××××××××××××××××××××××××××××')
 for I in c+'\n':
 	sys.stdout.write (I)
