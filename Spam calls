@@ -1,0 +1,12 @@
+import requests as rq 
+print (' Click On Link To Get On Password')
+print ()
+print ('')
+Password =input ('\033[1;92m》Enter Password : \033[1;96m')
+print ()
+NUMBER=input ('\033[1;92m》Enter Phone Number : \033[1;96m')
+
+url=f"https://spamcall.abdullah009900.repl.co/num?number={NUMBER}"
+
+r=rq.get (url)
+print (r.text)
